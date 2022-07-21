@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Edu VIC WA NT Beginner", cursive;
+	background-color: #fa5e5e;
+}
+
+.container {
+	display: flex;
+	width: 100vw;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2px;
+}
+
+.box {
+	width: 60px;
+	height: 80px;
+	background-image: url(https://st.depositphotos.com/1814083/1534/v/950/depositphotos_15348995-stock-illustration-green-watermelon-seamless-background.jpg);
+	background-size: 60px 60px;
+	border-radius: 40%;
+	border: 2px solid #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: default;
+	color: #fff;
+	transition: all 0.4s ease;
+	cursor: pointer;
+}
+
+.box:hover {
+	border-color: #53ff1a;
+}
+
+.glasses {
+	width: 45px;
+}
+
+.footer {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
